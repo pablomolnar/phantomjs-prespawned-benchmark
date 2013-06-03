@@ -29,3 +29,5 @@ phantom.create(function(ph) {
 
 	})
 })
+
+console.log('PhantomJS service is running in http://127.0.0.1:8000/');
