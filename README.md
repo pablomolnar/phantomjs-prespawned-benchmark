@@ -1,4 +1,4 @@
 phantomjs-prespawned-benchmark
 ==============================
 
-PhantomJS dummy benchmark that compares the time of create a new process vs a pre-spawned process listening from a websocket 
+Really basic test to validate quickly how perform a prespawned PhantomJS process using a NodeJS bridge though websockets vs launching a new process every time it's required.
