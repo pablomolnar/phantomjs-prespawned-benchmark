@@ -13,8 +13,6 @@ phantom.create(function(ph) {
 			var start = Date.now();
 
 			page.open(address, function(status) {
-				console.log(status);
-
 				page.render('tiger.png', function(){
 					var time = Date.now() - start;
 
