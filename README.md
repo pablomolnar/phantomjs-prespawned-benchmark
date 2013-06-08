@@ -2,10 +2,11 @@ phantomjs-prespawned-benchmark
 ==============================
 
 ### About
-Really basic test to validate quickly how perform a prespawned PhantomJS process using a NodeJS bridge though websockets vs launching a new process every time it's required.
+A really simple test to quickly validate how different perform a PhantomJS process bridged through websockets (in a NodeJS context) vs spawning a new PhantomJS process to render a SVG.
 
 ### Demo
 
+- Install npm, node and groovy
 - npm install phantom
 - node node-app-render.js
 - groovy launcher.groovy
